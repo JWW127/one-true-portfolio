@@ -23,7 +23,7 @@
 
   --gray: #6f6e73;
   --light-yellow: #f2cb07;
-  --dark-yellow: #f2b807;
+  --dark-yellow: #fab005;
   --purp: rgba(29, 23, 38);
   --Navy: #212e37;
   --white: #f2f2f2;
@@ -63,7 +63,6 @@ body {
   background-size: 100%;
   height: 100vh;
   margin: 0;
-  padding: 0;
   padding: 5vh;
   font-family: var(--sans);
   color: var(--black);
@@ -119,7 +118,7 @@ nav ul {
 }
 
 .nav-special {
-  background-color: var(--light-yellow);
+  background-color: var(--dark-yellow);
   color: var(--Navy);
   padding: 4px;
   border: 1px solid var(--light-yellow);
@@ -131,6 +130,11 @@ nav ul {
   background-color: var(--purp);
   color: var(--light-yellow);
 }
+.nav-special:active {
+  background-color: var(--purp);
+  color: var(--light-yellow);
+}
+
 
 span {
   margin: 0 0.4rem;
@@ -143,6 +147,7 @@ span {
 
 .logo h1 a {
   color: var(--dark-yellow);
+  font-family: var(--mono);
   width: 100%;
   margin: 0;
 }
@@ -160,9 +165,6 @@ a:active {
   border: 1px solid green;
 }
 
-.test {
-  z-index: 1;
-}
 
 /* footer mobile styles */
 

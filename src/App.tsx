@@ -4,59 +4,23 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
-import { BrowserRouter as Router, Route, Link, } from "react-router-dom";
-import {
-  BsFillChatLeftDotsFill,
-  BsFillInfoSquareFill,
-  BsCodeSquare,
-} from "react-icons/bs";
+import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
-        <Nav>
-          <ul>
-            <li className="logo">
-              <h1>
-                <a href="#">Joseph Woolever</a>
-              </h1>
-            </li>
-            <li className="nav-special">
-              <a href="#">
-                <span>
-                  <BsCodeSquare />
-                </span>
-                Portfolio
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <span>
-                  <BsFillInfoSquareFill />
-                </span>
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span>
-                  <BsFillChatLeftDotsFill />
-                </span>
-                Contact
-              </a>
-            </li>
-          </ul>
-        </Nav>
+        <Nav />
         <MainContent>
-          <Portfolio />
-          <About />
-          <Contact />
+          <Routes>
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
         </MainContent>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

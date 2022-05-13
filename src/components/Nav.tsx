@@ -13,7 +13,7 @@ const Nav = () => {
       <Stars />
       <ul>
         <li className="logo">
-          <h1>
+          <h1 id="logo-h1">
             <Link to="/">Joseph Woolever</Link>
           </h1>
         </li>

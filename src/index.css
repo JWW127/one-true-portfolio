@@ -67,7 +67,7 @@ body {
   font-family: var(--sans);
   color: var(--black);
   font-size: var(--font-size);
-      overflow: hidden;
+  overflow: hidden;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -87,7 +87,6 @@ body {
   background-color: rgba(29, 23, 38, 0.4);
   box-shadow: var(--shadow-elevation-medium);
   z-index: 2;
-
 }
 
 /* nav mobile styles */
@@ -135,7 +134,6 @@ nav ul {
   color: var(--light-yellow);
 }
 
-
 span {
   margin: 0 0.4rem;
 }
@@ -165,7 +163,6 @@ a:active {
   border: 1px solid green;
 }
 
-
 /* footer mobile styles */
 
 .footer {
@@ -180,8 +177,10 @@ a:active {
   box-shadow: var(--shadow-elevation-low-reverse);
 }
 
-
 @media (min-width: 800px) {
+    body {
+        padding-top: 2vh;
+    }
   .logo {
     justify-self: flex-start;
     align-self: flex-start;
@@ -248,7 +247,7 @@ a:active {
 
   50% {
     opacity: 0.09;
-        transform: rotate(.1turn);
+    transform: rotate(0.1turn);
   }
 
   100% {
@@ -256,7 +255,7 @@ a:active {
     top: 90%;
     left: 50%;
     opacity: 0.5;
-    transform: rotate(-2.0turn);
+    transform: rotate(-2turn);
   }
 }
 @keyframes star-four {
@@ -346,3 +345,4 @@ a:active {
   animation-direction: normal;
   animation-duration: 30s;
   animation-delay: 0s;
+}

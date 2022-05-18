@@ -172,8 +172,8 @@ a:active {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
   z-index: 2;
+  overflow-y: hidden;
 }
 
 /* landing---------------------------------------- */
@@ -227,15 +227,15 @@ a:active {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  max-height: 72vh;
+  max-height: 76vh;
   overflow-y: scroll;
   gap: 0.1rem;
   color: var(--white);
 }
 
 .folio-container h1 {
-    font-family: var(--mono);
-    margin-top: 2rem;
+  font-family: var(--mono);
+  margin-top: 2rem;
 }
 
 .folio-item {
@@ -246,51 +246,73 @@ a:active {
   max-height: 14vh;
   height: 14vh;
   background-color: var(--white);
-  box-shadow: var(--shadow-elevation-medium);
-  border-top: 2px groove var(--dark-yellow);
+  box-shadow: var(--shadow-elevation-low);
+  border-top: 4px solid var(--dark-yellow);
+  border-bottom: 2px solid var(--dark-yellow);
 }
 
 .folio-item img {
   width: 100%;
-  height: 14vh;
+  height: 100%;
   object-fit: cover;
 }
 
 .folio-item2 {
   width: 100%;
   flex-basis: 90%;
-  height: 9vh;
+  height: 13vh;
   position: relative;
-  bottom: .8rem;
+  bottom: 0.8rem;
   left: 0.5rem;
   border-radius: 6px;
   border: 1px solid var(--dark-yellow);
-  box-shadow: var(--shadow-elevation-medium);
+  box-shadow: var(--shadow-elevation-low);
   display: flex;
-  background-color: rgba(29, 23, 38, 0.99);
+  background-color: rgb(17, 11, 26);
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
   color: var(--white);
-  padding: 0 .2rem;
+  padding: 0.2rem;
+  transition: bottom 0.3s, box-shadow 0.3s;
+  overflow-y: scroll;
 }
 
 .folio-item2 h2 {
-    font-family: var(--mono);
-    text-align: left;
-    margin: 0;
-    font-size: 80%;
-    flex-basis: 90%;
+  font-family: var(--mono);
+  text-align: left;
+  margin: 0;
+  font-size: 80%;
+  flex-basis: 90%;
+  color: var(--dark-yellow);
 }
 .folio-item2 p {
-    margin: 0;
-    font-size: 80%;
+  margin: 0;
+  font-size: 80%;
+  line-height: 130%;
 }
 
 .folio-item2 a {
-    color: var(--light-yellow);
-    margin-left: 1rem;
+  color: var(--light-yellow);
+  margin: 1rem;
+}
+
+.folio-item2:hover {
+  background-color: rgba(29, 23, 38, 1);
+  bottom: 0.9rem;
+  box-shadow: var(--shadow-elevation-medium);
+}
+
+.folio-item-2 a:focus {
+  color: var(--dark-yellow);
+}
+
+#live {
+  border-radius: 2px;
+  color: var(--Navy);
+  background-color: var(--dark-yellow);
+  padding: 0 0.4rem;
 }
 
 /* footer */
@@ -327,6 +349,8 @@ a:active {
   }
 
   /*landing page desktop*/
+
+
   .landing-container p {
     font-size: 220%;
     max-width: 1024px;
@@ -334,6 +358,28 @@ a:active {
 
   .landing-container h1 {
     font-size: 320%;
+  }
+
+  .folio-container {
+ max-height: 81vh;
+}
+
+  .folio-item2 {
+    overflow: hidden;
+    padding-left: 1rem;
+  }
+
+  .folio-item2 h2 {
+    font-family: var(--mono);
+    text-align: left;
+    margin: 0;
+    font-size: 120%;
+    flex-basis: 90%;
+    color: var(--dark-yellow);
+  }
+  .folio-item2 p {
+    font-size: 100%;
+    line-height: 130%;
   }
 }
 

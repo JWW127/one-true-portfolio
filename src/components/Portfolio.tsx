@@ -1,9 +1,7 @@
 const Portfolio = () => {
   return (
     <div className="folio-container">
-      <div>
         <h1>My Portfolio</h1>
-      </div>
       <div className="folio-item">
         <img
           src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1641888291/digitamago_dbgj51.gif"

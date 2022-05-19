@@ -236,6 +236,8 @@ a:active {
 .folio-container h1 {
   font-family: var(--mono);
   margin-top: 2rem;
+  flex-basis: 100%;
+  text-align: center;
 }
 
 .folio-item {
@@ -360,8 +362,14 @@ a:active {
     font-size: 320%;
   }
 
+  /*folio */
+
   .folio-container {
  max-height: 81vh;
+}
+
+.folio-item {
+
 }
 
   .folio-item2 {

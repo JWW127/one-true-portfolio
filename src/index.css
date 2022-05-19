@@ -59,15 +59,14 @@ body {
   justify-content: center;
   align-items: center;
   background-image: var(--bg);
-  background-size: 100%;
-  height: 100vh;
+  background-size: 100% 110%;
+  height: 100%;
   margin: 0;
-  padding: 5vh;
+  padding: 3vh;
   font-family: var(--sans);
   color: var(--black);
   font-size: var(--font-size);
   overflow: hidden;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -227,7 +226,7 @@ a:active {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  max-height: 76vh;
+  max-height: 82vh;
   overflow-y: scroll;
   gap: 0.1rem;
   color: var(--white);
@@ -350,8 +349,13 @@ a:active {
     margin: 0;
   }
 
-  /*landing page desktop*/
+  /* main */
+  .main {
+    align-items: space-evenly;
+    height: 100%;
+  }
 
+  /*landing page desktop*/
 
   .landing-container p {
     font-size: 220%;
@@ -365,32 +369,53 @@ a:active {
   /*folio */
 
   .folio-container {
- max-height: 81vh;
-}
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    height: 100vh;
+    overflow-y: scroll;
+    gap: 1rem;
+  }
 
-.folio-item {
+  .folio-container h1 {
+      position: relative;
+      top: -1rem;
+      font-size: 300%;
+  }
 
-}
+  .folio-item {
+    flex-basis: 45%;
+    height: 14vh;
+    position: relative;
+    left: 0.2rem;
+    border: 3px solid var(--dark-yellow);
+    border-radius: 6px;
+    box-shadow: var(--shadow-elevation-medium);
+  }
 
   .folio-item2 {
+    flex-basis: 45%;
+    height: 13vh;
+    position: relative;
+    left: 0rem;
+    bottom: 1rem;
     overflow: hidden;
     padding-left: 1rem;
+    border: 3px solid var(--dark-yellow);
+    box-shadow: var(--shadow-elevation-medium);
+  }
+
+  .folio-item2:hover {
+    box-shadow: var(--shadow-elevation-high);
   }
 
   .folio-item2 h2 {
-    font-family: var(--mono);
-    text-align: left;
-    margin: 0;
-    font-size: 120%;
-    flex-basis: 90%;
-    color: var(--dark-yellow);
+    font-size: 100%;
   }
+
   .folio-item2 p {
     font-size: 100%;
-    line-height: 130%;
   }
 }
-
 /* stars */
 
 @keyframes star {

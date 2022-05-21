@@ -377,9 +377,9 @@ a:active {
   }
 
   .folio-container h1 {
-      position: relative;
-      top: -1rem;
-      font-size: 300%;
+    position: relative;
+    top: -1rem;
+    font-size: 300%;
   }
 
   .folio-item {
@@ -455,7 +455,7 @@ a:active {
     top: 82%;
     left: 20%;
     opacity: 0.5;
-    transform: rotate(0.7turn);
+    transform: rotate(.9turn);
   }
 }
 @keyframes star-three {
@@ -479,6 +479,7 @@ a:active {
     transform: rotate(-2turn);
   }
 }
+
 @keyframes star-four {
   0% {
     position: absolute;
@@ -503,6 +504,29 @@ a:active {
     filter: drop-shadow(#ee00ff);
     box-shadow: red;
     color: red;
+  }
+}
+
+@keyframes star-five {
+  0% {
+    position: absolute;
+    top: -30%;
+    left: 5%;
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0.09;
+    left: 50vw;
+    transform: rotate(-5turn);
+  }
+
+  100% {
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    opacity: 0.5;
+    transform: rotate(-1turn);
   }
 }
 
@@ -574,6 +598,16 @@ a:active {
   z-index: 1;
   animation-name: star-four;
   animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration: 30s;
+  animation-delay: 0s;
+}
+
+.stars-five {
+  z-index: 1;
+  animation-name: star-five;
+  animation-timing-function: cubic-bezier(0.45, 0.045, 0.675, 0.99);
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-duration: 30s;

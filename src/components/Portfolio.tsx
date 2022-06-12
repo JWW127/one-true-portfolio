@@ -94,6 +94,7 @@ const Portfolio = () => {
       </div>
       <div className="folio-item"> </div>
       <div className="folio-item2"> </div>
+      <div className="p2"></div>
     </div>
   );
 };

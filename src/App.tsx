@@ -5,6 +5,7 @@ import Landing from "./components/Landing";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+//lazy load everything but landing page
 const Portfolio = React.lazy(() => import("./components/Portfolio"))
 const About = React.lazy(() => import("./components/About"))
 const Contact = React.lazy(() => import("./components/Contact"))

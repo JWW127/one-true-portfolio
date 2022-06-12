@@ -62,7 +62,7 @@ body {
   background-size: 100% 110%;
   height: 100%;
   margin: 0;
-  padding: 3vh;
+  padding: 2rem;
   font-family: var(--sans);
   color: var(--black);
   font-size: var(--font-size);
@@ -72,13 +72,13 @@ body {
 }
 
 .App {
-  margin: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
   width: 90vw;
-  min-height: 90vh;
+  height: 93vh;
   max-width: 1024px;
   border: 1px solid var(--light-yellow);
   border-radius: 6px;
@@ -86,6 +86,22 @@ body {
   box-shadow: var(--shadow-elevation-medium);
   z-index: 2;
   overflow: hidden;
+}
+
+.App::-webkit-scrollbar {
+  width: 5px;
+}
+
+.main::-webkit-scrollbar {
+  width: 5px;
+}
+
+.folio-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.about-container::-webkit-scrollbar {
+  width: 5px;
 }
 
 /* nav ------------------------------------------- */
@@ -172,7 +188,7 @@ a:active {
   align-items: center;
   width: 100%;
   z-index: 2;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 /* landing---------------------------------------- */
@@ -227,7 +243,7 @@ a:active {
   flex-wrap: wrap;
   width: 100%;
   max-height: 82vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   gap: 0.1rem;
   color: var(--white);
 }
@@ -277,7 +293,7 @@ a:active {
   color: var(--white);
   padding: 0.2rem;
   transition: bottom 0.3s, box-shadow 0.3s;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .folio-item2 h2 {
@@ -309,6 +325,11 @@ a:active {
   color: var(--dark-yellow);
 }
 
+.p2 {
+    padding: 1rem;
+    flex-basis: 100%;
+}
+
 #live {
   border-radius: 2px;
   color: var(--Navy);
@@ -316,17 +337,131 @@ a:active {
   padding: 0 0.4rem;
 }
 
+/*---ABOUT------------------------------------------*/
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.about-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 82vh;
+  color: var(--white);
+}
+
+.about-title {
+  width: 90%;
+  color: var(--white);
+  margin: 1rem;
+}
+
+.about-title h2 {
+  margin: 0;
+}
+.about-title p {
+  margin: 0;
+}
+
+.about-item-1 {
+  color: var(--white);
+  margin: 1rem;
+}
+
+.about-item-1 ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.about-item-1 ul li {
+    list-style: none;
+    font-size: 90%;
+    margin: .4rem 1px;
+}
+.about-item-1 ul li span{
+  color: var(--gray);
+}
+
+.about-item-2 {
+  color: var(--white);
+  margin: .2rem 1rem;
+}
+
+.about-item-1 h4,p {
+    margin: .5rem 0;
+}
+.about-item-1 h3 {
+    color: var(--dark-yellow);
+}
+
+.about-item-1 h4 {
+  padding-left: 2px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--dark-yellow);
+}
+
+
+.about-item-2 h4 {
+    margin: .5rem 0;
+}
+
+.about-item-2 p {
+    margin-top: .5rem;
+}
+
+.about-item-2 h3 {
+    color: var(--dark-yellow);
+}
+
+.about-item-2 h4 {
+  padding-left: 2px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--dark-yellow);
+}
+
+.skills {
+  background-color: rgba(197, 190, 205, 0.01);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    padding: 1px;
+}
+
+.skills li {
+  background-color: rgba(197, 190, 205, 0.2);
+    margin: 5px;
+    list-style: none;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 70%;
+}
+
+.p {
+    padding: 4rem;
+}
+
 /* footer */
 
 .footer {
-  z-index: 2;
+  position: absolute;
+  width: 89vw;
+  max-width: 1022px;
+  z-index: 3;
   font-size: 80%;
-  flex-basis: 100%;
+ /* flex-basis: 100%; we can use this if we remove position but its weird */
   text-align: center;
   height: 4%;
   min-height: 2vh;
   border-radius: 0px 0px 6px 6px;
-  background-color: rgba(29, 23, 38, 0.9);
+  background-color: rgba(29, 23, 38, 1);
   color: var(--gray);
   align-self: flex-end;
   box-shadow: var(--shadow-elevation-low-reverse);
@@ -334,7 +469,13 @@ a:active {
 
 @media (min-width: 800px) {
   body {
-    padding-top: 2vh;
+    padding-top: 1rem;
+  }
+
+  .App {
+    height: 90%;
+    min-height: 90vh;
+    overflow-y: auto;
   }
   .logo {
     justify-self: flex-start;
@@ -353,6 +494,7 @@ a:active {
   .main {
     align-items: space-evenly;
     height: 100%;
+    overflow: auto;
   }
 
   /*landing page desktop*/
@@ -415,13 +557,30 @@ a:active {
   .folio-item2 p {
     font-size: 100%;
   }
+
+  /*ABOUT-------------*/
+  .about-container {
+    flex-wrap: nowrap;
+    padding: 2rem;
+    gap: 1rem;
+    overflow-y: scroll;
+  }
+
+  .about-item-1 {
+    color: white;
+  }
+
+  .about-item-2 {
+    color: white;
+  }
+
 }
 /* stars */
 
 @keyframes star {
   0% {
     position: absolute;
-    top: -50%;
+    top: -8%;
     left: 40%;
     opacity: 0;
   }
@@ -455,13 +614,13 @@ a:active {
     top: 82%;
     left: 20%;
     opacity: 0.5;
-    transform: rotate(.9turn);
+    transform: rotate(0.9turn);
   }
 }
 @keyframes star-three {
   0% {
     position: absolute;
-    top: -10%;
+    top: -1%;
     left: 40%;
     opacity: 0;
   }

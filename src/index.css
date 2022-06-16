@@ -242,7 +242,7 @@ a:active {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  max-height: 82vh;
+  max-height: 92vh;
   overflow-y: auto;
   gap: 0.1rem;
   color: var(--white);
@@ -326,8 +326,8 @@ a:active {
 }
 
 .p2 {
-    padding: 1rem;
-    flex-basis: 100%;
+  padding: 1rem;
+  flex-basis: 100%;
 }
 
 #live {
@@ -376,28 +376,28 @@ a:active {
 .about-item-1 ul {
   margin: 0;
   padding: 0;
-
 }
 
 .about-item-1 ul li {
-    list-style: none;
-    font-size: 90%;
-    margin: .4rem 1px;
+  list-style: none;
+  font-size: 90%;
+  margin: 0.4rem 1px;
 }
-.about-item-1 ul li span{
+.about-item-1 ul li span {
   color: var(--gray);
 }
 
 .about-item-2 {
   color: var(--white);
-  margin: .2rem 1rem;
+  margin: 0.2rem 1rem;
 }
 
-.about-item-1 h4,p {
-    margin: .5rem 0;
+.about-item-1 h4,
+p {
+  margin: 0.5rem 0;
 }
 .about-item-1 h3 {
-    color: var(--dark-yellow);
+  color: var(--dark-yellow);
 }
 
 .about-item-1 h4 {
@@ -407,17 +407,16 @@ a:active {
   text-decoration-color: var(--dark-yellow);
 }
 
-
 .about-item-2 h4 {
-    margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .about-item-2 p {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .about-item-2 h3 {
-    color: var(--dark-yellow);
+  color: var(--dark-yellow);
 }
 
 .about-item-2 h4 {
@@ -429,23 +428,23 @@ a:active {
 
 .skills {
   background-color: rgba(197, 190, 205, 0.01);
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 12px;
-    padding: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  padding: 1px;
 }
 
 .skills li {
   background-color: rgba(197, 190, 205, 0.2);
-    margin: 5px;
-    list-style: none;
-    border-radius: 12px;
-    padding: 8px;
-    font-size: 70%;
+  margin: 5px;
+  list-style: none;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 70%;
 }
 
 .p {
-    padding: 4rem;
+  padding: 4rem;
 }
 
 /* footer */
@@ -456,7 +455,6 @@ a:active {
   max-width: 1022px;
   z-index: 3;
   font-size: 80%;
- /* flex-basis: 100%; we can use this if we remove position but its weird */
   text-align: center;
   height: 4%;
   min-height: 2vh;
@@ -490,7 +488,7 @@ a:active {
     margin: 0;
   }
 
-  /* main */
+  /*main -----------*/
   .main {
     align-items: space-evenly;
     height: 100%;
@@ -508,12 +506,12 @@ a:active {
     font-size: 320%;
   }
 
-  /*folio */
+  /*folio-----------*/
 
   .folio-container {
     justify-content: space-evenly;
     align-items: space-evenly;
-    height: 100vh;
+    height: 90vh;
     overflow-y: scroll;
     gap: 1rem;
   }
@@ -563,6 +561,7 @@ a:active {
     flex-wrap: nowrap;
     padding: 2rem;
     gap: 1rem;
+    height: 90vh;
     overflow-y: scroll;
   }
 
@@ -574,6 +573,7 @@ a:active {
     color: white;
   }
 
+  /*Contact-----------*/
 }
 /* stars */
 

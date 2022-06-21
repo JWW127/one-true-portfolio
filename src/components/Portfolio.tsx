@@ -1,7 +1,7 @@
 const Portfolio = () => {
   return (
     <div className="folio-container">
-        <h1>My Portfolio</h1>
+      <h1>My Portfolio</h1>
       <div className="folio-item">
         <img
           src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1641888291/digitamago_dbgj51.gif"
@@ -20,7 +20,7 @@ const Portfolio = () => {
           >
             Github
           </a>
-        </p>{" "}
+          </p>{" "}
       </div>
       <div className="folio-item">
         <img
@@ -82,7 +82,8 @@ const Portfolio = () => {
         {" "}
         <h2>SCI-FI-CLI</h2>
         <p>
-          A Static Api, and CLI application combined to bring sci-fi quotes to your command line. {" "}
+          A Static Api, and CLI application combined to bring sci-fi quotes to
+          your command line.{" "}
           <a
             href="https://github.com/JWW127/sci-fi-cli"
             target="_blank"
@@ -92,9 +93,37 @@ const Portfolio = () => {
           </a>
         </p>{" "}
       </div>
-      <div className="folio-item"> </div>
-      <div className="folio-item2"> </div>
-      <div className="p2"></div>
+      <div className="folio-item">
+        {" "}
+        <img
+          src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1655787776/qrapp_oqraqv.png"
+          alt="ufo cow"
+        />{" "}
+      </div>
+      <div className="folio-item2">
+        {" "}
+        <h2>Signet-QR</h2>
+        <p>
+        QR-code generator for a streamline application link for potential new Signet employees.{" "}
+                    <a
+            id="live"
+            href="https://sig-qr.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            >
+            Live
+          </a>
+
+          <a
+            href="https://github.com/JWW127/signet-qr-code"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </p>
+      </div>
+      <div className="p"></div>
     </div>
   );
 };

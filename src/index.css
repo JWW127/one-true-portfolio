@@ -446,14 +446,17 @@ p {
 .p {
   padding: 4rem;
 }
+.p6 {
+  padding: 6rem;
+}
 
 /* footer */
 
 .footer {
-  position: absolute;
+  position: sticky;
   width: 89vw;
-  max-width: 1022px;
-  z-index: 3;
+  max-width: 1023px;
+  z-index: 2;
   font-size: 80%;
   text-align: center;
   height: 4%;
@@ -471,7 +474,7 @@ p {
   }
 
   .App {
-    height: 90%;
+    height: 93vh;
     min-height: 90vh;
     overflow-y: auto;
   }

@@ -9,14 +9,14 @@ const About = () => {
         <div className="about-item-1">
           <h3>About Me</h3>
           <p>
-            I'm a self taught developer. I got my first taste of programming in
-            my early years with a free Angelfire website. As a kid I thought it
-            was the coolest thing copying source code from other sites. While I
-            didn't build anything of note the spark was there. Coming from a
-            long line of retail management, by and by I found myself doing the
-            same. Ultimately my goal is to break out of the family tradition and
-            find a career as a software developer. I've studied and worked very
-            hard, and I honestly believe I am ready for the transition.
+            I'm a self taught developer. I got my first taste of programming as
+            a kid with free Angelfire ang GeoCities websites. As a kid I thought
+            it was the coolest thing copying source code from other sites. While
+            I didn't build anything of note the spark was there. I later went on
+            to college at the University of Houston, where I majored in
+            Biotechnology. With three sibling and a long family history of
+            retail management, ultimately I found myself doing the same. This is
+            where things change, I'm looking to switch up the family tradition and jump head first into the tech industry.
           </p>
           <h3>Education</h3>
           <h4>Formal Education</h4>
@@ -104,15 +104,35 @@ const About = () => {
           <h3>Projects & Experiences</h3>
           <h4>Google Scholarship + Udacity 2018</h4>
           <p>
-            In 2018 I applied for a scholarship from Google, which I ended up getting. We were given options of where we could use this scholarship, one of the choices being Udacity. I took that opportunity to take the Front-End Developer Nanodegree course at Udacity. We had live speakers from google and AT&T, and it was a really great experience. The perspective I gained from my time with Udacity in 2018 was a true eye opener. Observing the workflow and thought process of professionals was incredible. Sometimes you don't know what is possible until you see someone else do it, and that was the case here. This new fountain of knowledge led me even further down the rabbit hole of front-end development.  
+            In 2018 I applied for a scholarship from Google, which I ended up
+            getting. We were given options of where we could use this
+            scholarship, one of the choices being Udacity. I took that
+            opportunity to take the Front-End Developer Nanodegree course at
+            Udacity. We had live speakers from google and AT&T, and it was a
+            really great experience. The perspective I gained from my time with
+            Udacity in 2018 was a true eye opener. Observing the workflow and
+            thought process of professionals was incredible. Sometimes you don't
+            know what is possible until you see someone else do it, and that was
+            the case here. This new fountain of knowledge led me even further
+            down the rabbit hole of front-end development.
           </p>
           <h4>Golang CoinMarketCap API 2017</h4>
           <p>
-            2017 I wanted to test out golang, at the time I was also pretty big on cryptocurreny. So I wrote a simple app to pull prices from CoinMarketCap's Rest API. This was the first api call I ever made, in fact I didnt even know what an api was at the time. I ended up deleting it later, embarassed of the code, but now I wish I hadn't. You can still find refrences to it if you google "jww127 Go SDK."
+            2017 I wanted to test out golang, at the time I was also pretty big
+            on cryptocurreny. So I wrote a simple app to pull prices from
+            CoinMarketCap's Rest API. This was the first api call I ever made,
+            in fact I didnt even know what an api was at the time. I ended up
+            deleting it later, embarassed of the code, but now I wish I hadn't.
+            You can still find refrences to it if you google "jww127 Go SDK."
           </p>
           <h4>Sweet Rectangles 2016 (retired)</h4>
           <p>
-            Built a website for client's cupcake business. The site was built using a LAMP stack, the main take away for me was the learning experience. The amount of work, the amount of learning, and the amount trouble shooting is invaluable. For the first time I truly got to appreciate how much engineers do, just to have a simple product. 
+            Built a website for client's cupcake business. The site was built
+            using a LAMP stack, the main take away for me was the learning
+            experience. The amount of work, the amount of learning, and the
+            amount trouble shooting is invaluable. For the first time I truly
+            got to appreciate how much engineers do, just to have a simple
+            product.
           </p>
           <div className="p"></div>
         </div>

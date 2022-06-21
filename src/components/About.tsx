@@ -16,7 +16,8 @@ const About = () => {
             to college at the University of Houston, where I majored in
             Biotechnology. With three sibling and a long family history of
             retail management, ultimately I found myself doing the same. This is
-            where things change, I'm looking to switch up the family tradition and jump head first into the tech industry.
+            where things change, I'm looking to switch up the family tradition
+            and jump head first into the tech industry.
           </p>
           <h3>Education</h3>
           <h4>Formal Education</h4>

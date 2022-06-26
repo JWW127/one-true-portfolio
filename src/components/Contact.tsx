@@ -30,7 +30,7 @@ const Contact = () => {
           {" "}
           <div className="contact-item">
             <p>
-              <span id="contact-email">Joseph27Dev@gmail.com</span>
+              <span id="contact-email">Joseph27.Dev@gmail.com</span>
             </p>
             <BsMailbox />
           </div>

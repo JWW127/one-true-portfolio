@@ -1,4 +1,4 @@
-import { BsLinkedin, BsTwitter, BsMailbox } from "react-icons/bs";
+import { BsLinkedin, BsTwitter, BsMailbox, BsGithub } from "react-icons/bs";
 const Contact = () => {
   return (
     <div className="contact-container">
@@ -34,6 +34,17 @@ const Contact = () => {
             </p>
             <BsMailbox />
           </div>
+        </li>
+        <li>
+          {" "}
+          <a
+            href="https://www.github.com/jww127/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p>Github</p>
+            <BsGithub />
+          </a>
         </li>
       </ul>
     </div>

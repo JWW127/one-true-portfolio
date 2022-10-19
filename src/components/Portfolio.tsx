@@ -74,6 +74,33 @@ const Portfolio = () => {
       </div>
       <div className="folio-item">
         <img
+          src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1665855297/tk3-timer_ksvps4.gif"
+          alt="tokyo-3 timer"
+        />{" "}
+      </div>
+      <div className="folio-item2">
+        <h2>Tokyo-3</h2>
+        <p>
+          A CLI application that serves as a Pomodor & Timer. After the timer is complete, animations are rendered in ascii!{" "}
+          <a
+            id="live"
+            href="https://www.npmjs.com/package/tokyo-3"
+            target="_blank"
+            rel="noreferrer"
+          >
+            NPM
+          </a>
+          <a
+            href="https://github.com/JWW127/tokyo-3"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </p>
+      </div>
+      <div className="folio-item">
+        <img
           src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652840477/cows_hmxmxl.png"
           alt="ufo cow"
         />{" "}

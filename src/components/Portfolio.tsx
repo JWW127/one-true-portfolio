@@ -53,18 +53,17 @@ const Portfolio = () => {
 
       <div className="folio-item">
         <img
-          src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652544081/Screenshot_from_2022-01-13_22-18-24_sw2are.png"
-          alt="bitcoin app"
+          src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1666289998/learn-pos-portfolio_ehzzrr.png"
+          alt="Starbucks Learning App"
         />{" "}
       </div>
       <div className="folio-item2">
         {" "}
-        <h2>BTC Basket</h2>
+        <h2>Learn Sbux</h2>
         <p>
-          A Svelte app that gets the latest Bitcoin price and compares it
-          against USD CPI basket.{" "}
+          A NextJS app designed to help New or Aspiring Starbucks Employees learn and grow. {" "}
           <a
-            href="https://github.com/JWW127/BTC-CPI-Basket"
+            href="https://github.com/JWW127/learn-sbux"
             target="_blank"
             rel="noreferrer"
           >
@@ -72,12 +71,14 @@ const Portfolio = () => {
           </a>
         </p>{" "}
       </div>
+
       <div className="folio-item">
         <img
           src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1665855297/tk3-timer_ksvps4.gif"
           alt="tokyo-3 timer"
         />{" "}
       </div>
+
       <div className="folio-item2">
         <h2>Tokyo-3</h2>
         <p>
@@ -99,6 +100,28 @@ const Portfolio = () => {
           </a>
         </p>
       </div>
+
+      <div className="folio-item">
+        <img
+          src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652544081/Screenshot_from_2022-01-13_22-18-24_sw2are.png"
+          alt="bitcoin app"
+        />{" "}
+      </div>
+      <div className="folio-item2">
+        {" "}
+        <h2>BTC Basket</h2>
+        <p>
+          A Svelte app that gets the latest Bitcoin price and compares it
+          against USD CPI basket.{" "}
+          <a
+            href="https://github.com/JWW127/BTC-CPI-Basket"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </p>{" "}
+      </div>
       <div className="folio-item">
         <img
           src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652840477/cows_hmxmxl.png"
@@ -109,7 +132,7 @@ const Portfolio = () => {
         {" "}
         <h2>SCI-FI-CLI</h2>
         <p>
-          A Static Api, and CLI application combined to bring sci-fi quotes to
+          My Static Api, and CLI application combined to bring sci-fi quotes to
           your command line.{" "}
           <a
             href="https://github.com/JWW127/sci-fi-cli"
@@ -156,3 +179,5 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+// 

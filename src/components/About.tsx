@@ -10,9 +10,9 @@ const About = () => {
           <h3>About Me</h3>
           <p>
             I'm a self taught developer. I got my first taste of programming as
-            a kid with free Angelfire and GeoCities websites. As a kid I thought
+            a kid with free Angelfire and GeoCities websites. In my youth I thought
             it was the coolest thing copying source code from other sites then
-            add it to my free site. While I didn't build anything of note the
+            adding it to my free site. While I didn't build anything of note the
             spark was there. I later went on to college at the University of
             Houston, where I majored in Biotechnology. 
           </p>

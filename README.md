@@ -1,6 +1,9 @@
-# My Official Website 2022
+<div align="center">
+<img src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1675808329/otr_xfbqjy.png">
+<h1># My Official Website 2022</h1>
+</div>
 
+<div align="center">
 This is my official website. Check it out, message me, copy it, use it as your own!
-You can visit the live site [My personal website](https://joseph27.dev/)
-
-![nasa image of earth](https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/iss067e005682.jpg)
+You can visit the live site <a href="https://joseph27.dev">HERE</a>
+</div>

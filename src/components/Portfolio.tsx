@@ -61,7 +61,7 @@ const Portfolio = () => {
 
             <ProjImage
                 src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1673832446/hacktober_ey68v3.png"
-                alt="tokyo-3 timer"
+                alt="hacktoberfest"
             />
             <ProjDescription
                 title="Hacktoberfest & Tree-Nation"
@@ -81,6 +81,19 @@ const Portfolio = () => {
                 desc="A Svelte app that gets the latest Bitcoin price and compares it against USD CPI basket."
                 gh={true}
                 ghLink="https://github.com/JWW127/BTC-CPI-Basket"
+                npm={false}
+                live={false}
+            />
+
+            <ProjImage
+                src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1675821198/ewv2_tw1s4a.gif"
+                alt="earthworm vim theme"
+            />
+            <ProjDescription
+                title="Earthworm Vim"
+                desc="A Neovim theme based on the popular 90s video game Earthworm Jim."
+                gh={true}
+                ghLink="https://github.com/JWW127/earthworm-vim"
                 npm={false}
                 live={false}
             />

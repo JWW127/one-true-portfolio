@@ -636,6 +636,67 @@ p {
   }
 
   /*Contact-----------*/
+    .contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80vh;
+  width: 100%;
+  overflow-y: auto;
+  gap: 0.1rem;
+  color: var(--white);
+  margin: 1rem;
+}
+
+.contact-container h1 {
+  color: var(--dark-yellow);
+  font-size: 300%;
+  flex-basis: 100%;
+  text-align: center;
+  align-self: end;
+}
+
+.contact-container ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  list-style: none;
+  font-size: 200%;
+  padding-bottom: 2rem;
+  margin-top: 0;
+  gap: 1rem;
+}
+
+.contact-container ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 200%;
+  padding: 0;
+  gap: 1rem;
+}
+
+.contact-item {
+  text-align: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  flex-basis: 100%;
+  width: 100%;
+}
+
+#contact-email {
+  font-size: 54%;
+  font-weight: 900;
+}
+
 }
 /* stars */
 

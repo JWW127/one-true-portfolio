@@ -14,7 +14,7 @@ const Nav = () => {
       <ul>
         <li className="logo">
           <h1 id="logo-h1">
-            <Link to="/">Joseph Woolever</Link>
+            <Link to="/">Joey Woolever</Link>
           </h1>
         </li>
         <li className="nav-special">

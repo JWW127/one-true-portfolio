@@ -25,6 +25,7 @@ export const ProjImage = (props: ProjImgProps) => {
     )
 
 }
+
 export const ProjDescription = (props: ProjDescProps) => {
     return (
         <div className="folio-item2">

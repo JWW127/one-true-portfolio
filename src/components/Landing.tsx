@@ -4,7 +4,7 @@ const Landing = () => {
   return (
     <div className="landing-container">
       <p>Hello! I am</p>
-      <h1>Joseph Woolever</h1>
+      <h1><span style={{fontSize: "120%"}}>Joey</span> Woolever</h1>
       <p style={{ textAlign: "center" }}>
         <span>
           <span id="greater">{`>`}</span>

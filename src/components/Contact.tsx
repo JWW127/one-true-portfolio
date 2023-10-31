@@ -1,4 +1,10 @@
-import { BsLinkedin, BsDiscord, BsTwitter, BsMailbox, BsGithub } from "react-icons/bs";
+import {
+    BsLinkedin,
+    BsDiscord,
+    BsTwitter,
+    BsMailbox,
+    BsGithub,
+} from "react-icons/bs";
 const Contact = () => {
     return (
         <div className="contact-container">
@@ -18,7 +24,7 @@ const Contact = () => {
                 <li>
                     {" "}
                     <a
-                        href="https://discordapp.com/users/967505978318807141"
+                        href="https://discordapp.com/users/1112861708336238623"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -29,7 +35,7 @@ const Contact = () => {
                 <li>
                     {" "}
                     <a
-                        href="https://www.twitter.com/joseph27dev/"
+                        href="https://www.twitter.com/SUPER_COOL_JOEY"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -48,7 +54,6 @@ const Contact = () => {
                 </li>
                 <li>
                     {" "}
-
                     <a
                         href="https://www.github.com/jww127/"
                         target="_blank"

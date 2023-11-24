@@ -34,6 +34,7 @@ const Portfolio = (props: PPA) => {
                     gh={ele.gh}
                     ghLink={ele.ghLink}
                     npm={ele.npm}
+                    npmLink={ele.npmLink}
                     live={ele.live}
                     liveLink={ele.liveLink}
                 />

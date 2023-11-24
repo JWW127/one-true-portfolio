@@ -6,7 +6,8 @@
         "ghLink": "https://github.com/JWW127/digi-tamago",
         "npm": false,
         "live": false,
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1641888291/digitamago_dbgj51.gif",
+        "loRes": "/tamago.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1641888291/digitamago_dbgj51.gif",
         "alt": "virtual pet game gif"
     },
     {
@@ -17,12 +18,14 @@
         "npm": false,
         "live": true,
         "liveLink": "https://react-alchemy-658a3.web.app",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652574564/Screenshot_from_2022-03-23_02-20-34_phvqgx.png",
+        "loRes": "/timer.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652574564/Screenshot_from_2022-03-23_02-20-34_phvqgx.png",
         "alt": "alchemy react game gif"
     },
     {
         "title": "Learn Sbux",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1666289998/learn-pos-portfolio_ehzzrr.png",
+        "loRes": "/sb-pos.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1666289998/learn-pos-portfolio_ehzzrr.png",
         "alt": "Starbucks Learning App",
         "desc": "A NextJS app designed to help New or Aspiring Starbucks Employees learn and grow.",
         "gh": true,
@@ -32,7 +35,8 @@
     },
     {
         "title": "Tokyo-3",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1665855297/tk3-timer_ksvps4.gif",
+        "loRes": "/timer.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1665855297/tk3-timer_ksvps4.gif",
         "alt": "tokyo-3 timer",
         "desc": "A CLI application that serves as a Pomodoro themed Timer. After the timer is complete, animations are rendered in ascii!",
         "gh": true,
@@ -43,7 +47,8 @@
     },
     {
         "title": "Hacktoberfest & Tree-Nation",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1673832446/hacktober_ey68v3.png",
+        "loRes": "/hacktober_test.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1673832446/hacktober_ey68v3.png",
         "alt": "hacktoberfest",
         "desc": "Participation in Hacktoberfest, received a Level 4 contribution award, and a tree planted in my name by Tree-Nation.",
         "gh": false,
@@ -53,7 +58,8 @@
     },
     {
         "title": "BTC Basket",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652544081/Screenshot_from_2022-01-13_22-18-24_sw2are.png",
+        "loRes": "/svelte-btc.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652544081/Screenshot_from_2022-01-13_22-18-24_sw2are.png",
         "alt": "bitcoin app",
         "desc": "A Svelte app that gets the latest Bitcoin price and compares it against USD CPI basket.",
         "gh": true,
@@ -63,7 +69,8 @@
     },
     {
         "title": "Earthworm Vim",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1675821198/ewv2_tw1s4a.gif",
+        "loRes": "/earth-worm-vim.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1675821198/ewv2_tw1s4a.gif",
         "alt": "earthworm vim theme",
         "desc": "A Neovim theme based on the popular 90s video game Earthworm Jim.",
         "gh": true,
@@ -73,7 +80,8 @@
     },
     {
         "title": "SCI-FI-CLI",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652840477/cows_hmxmxl.png",
+        "loRes": "/hacktober_test.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652840477/cows_hmxmxl.png",
         "alt": "ufo cow",
         "desc": "My Static Api, and CLI application combined to bring sci-fi quotes to your command line.",
         "gh": true,
@@ -83,7 +91,8 @@
     },
     {
         "title": "Signet-QR",
-        "src": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1655787776/qrapp_oqraqv.png",
+        "loRes": "/signet.jpg",
+        "hiRes": "https://res.cloudinary.com/dpc3zrcvs/image/upload/v1655787776/qrapp_oqraqv.png",
         "alt": "Signet QR code",
         "desc": "QR-code generator, creating a streamline experience for new Signet employees.",
         "gh": true,

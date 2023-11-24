@@ -1,4 +1,5 @@
-import { ProjImage, ProjDescription } from "./Project";
+import { ProjDescription } from "./Project";
+import ImageLoader from "./Image-Loader";
 
 interface PPA {
     ppa: PortfolioProps[];
@@ -11,7 +12,8 @@ interface PortfolioProps {
     npm: boolean;
     npmLink?: string;
     live: boolean;
-    src: string;
+    loRes: string;
+    hiRes: string;
     alt: string;
     liveLink?: string;
 }
@@ -21,7 +23,11 @@ const Portfolio = (props: PPA) => {
     let projectHydration = projectDetails.map((ele) => {
         return (
             <>
-                <ProjImage src={ele.src} alt={ele.alt} />
+                <ImageLoader
+                    lowResSrc={ele.loRes}
+                    highResSrc={ele.hiRes}
+                    alt={ele.alt}
+                />
                 <ProjDescription
                     title={ele.title}
                     desc={ele.desc}

@@ -1,4 +1,3 @@
-
 interface ProjDescProps {
     title: string;
     desc: string;
@@ -9,7 +8,6 @@ interface ProjDescProps {
     liveLink?: string;
     live: boolean;
 }
-
 
 export const ProjDescription = (props: ProjDescProps) => {
     return (

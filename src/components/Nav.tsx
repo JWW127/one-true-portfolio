@@ -12,13 +12,13 @@ const Nav = () => {
     <nav>
       <Stars />
       <ul>
-        <li className="logo">
+        <li key={"logo"} className="logo">
           <h1 id="logo-h1">
-            <Link to="/">Joey Woolever</Link>
+            <Link key={"logo2"} to="/">Joey Woolever</Link>
           </h1>
         </li>
-        <li className="nav-special">
-          <Link to="/Portfolio">
+        <li key={"port"} className="nav-special">
+          <Link key={"port2"} to="/Portfolio">
             <span>
               <BsCodeSquare />
             </span>
@@ -26,16 +26,16 @@ const Nav = () => {
           </Link>
         </li>
 
-        <li>
-          <Link to="/about">
+        <li key={"about"}>
+          <Link key={"about2"} to="/about">
             <span>
               <BsFillInfoSquareFill />
             </span>
             About
           </Link>
         </li>
-        <li>
-          <Link to="/contact">
+        <li key={"contact"}>
+          <Link key={"contact2"} to="/contact">
             <span>
               <BsFillChatLeftDotsFill />
             </span>

@@ -13,6 +13,7 @@ const ImageLoader = (props: ImageLoaderProp) => {
     const replaceWithHighRes = () => {
         const highResImage = new Image();
         highResImage.src = props.highResSrc;
+        console.log("here")
 
         highResImage.onload = () => {
             setImageSrc(highResImage.src);

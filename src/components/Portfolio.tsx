@@ -24,11 +24,13 @@ const Portfolio = (props: PPA) => {
         return (
             <>
                 <ImageLoader
+                    key={ele.alt}
                     lowResSrc={ele.loRes}
                     highResSrc={ele.hiRes}
                     alt={ele.alt}
                 />
                 <ProjDescription
+                    key={ele.title}
                     title={ele.title}
                     desc={ele.desc}
                     gh={ele.gh}
